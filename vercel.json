@@ -1,0 +1,7 @@
+{
+  "rewrites": [
+    { "source": "/connect", "destination": "/index.html" },
+    { "source": "/nocenix", "destination": "/index.html" },
+    { "source": "/(.*)", "destination": "/index.html" }
+  ]
+}
